@@ -21,3 +21,5 @@ INSERT INTO products (name, category, brand, price, warranty, description) VALUE
 
 -- 4. Truy vấn kiểm tra dữ liệu
 SELECT * FROM products;
+CREATE DATABASE `test_delete`;
+DROP DATABASE `test_delete`;
