@@ -21,5 +21,14 @@ INSERT INTO products (name, category, brand, price, warranty, description) VALUE
 
 -- 4. Truy vấn kiểm tra dữ liệu
 SELECT * FROM products;
+-- 1. Tao va xoa CSDL bang lenh SQL
 CREATE DATABASE `test_delete`;
 DROP DATABASE `test_delete`;
+-- 2. Huong dan xoa CSDL bang giao dien (GUI) MySQL Workbench
+-- ==========================================
+-- Buoc 1: Mo MySQL Workbench va dang nhap vao server.
+-- Buoc 2: Tai khung "SCHEMAS" ben trai, tim den ten CSDL can xoa (vi du: product_ai hoac test_delete).
+-- Buoc 3: Click chuot phai vao ten CSDL do va chon "Drop Schema...".
+-- Buoc 4: Xuat hien bang canh bao, chon "Drop Now" de xac nhan xoa.
+-- Buoc 5: Kiem tra lai phan "Action Output" thay xuat hien dau tich xanh la xoa thanh cong.
+
