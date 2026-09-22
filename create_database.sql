@@ -31,4 +31,14 @@ DROP DATABASE `test_delete`;
 -- Buoc 3: Click chuot phai vao ten CSDL do va chon "Drop Schema...".
 -- Buoc 4: Xuat hien bang canh bao, chon "Drop Now" de xac nhan xoa.
 -- Buoc 5: Kiem tra lai phan "Action Output" thay xuat hien dau tich xanh la xoa thanh cong.
+create database demo;
+
+use demo;
+
+create table Student(
+ id int,
+ name varchar(200),
+ age int,
+ country varchar(50)
+);
 
